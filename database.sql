@@ -1,3 +1,4 @@
+
 -- 1. Get all customers and their addresses.
 SELECT * FROM "customers"
 JOIN "addresses" ON "customers"."id"="addresses"."customer_id"
@@ -14,3 +15,4 @@ JOIN "addresses" ON "customers"."id"="addresses"."customer_id"
 -- 7. How many products do we carry?
 
 -- 8. What is the total available on-hand quantity of diet pepsi?
+
